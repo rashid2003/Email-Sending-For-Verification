@@ -48,5 +48,16 @@ what you need to do to let it run:
 
 
 # on Mac 
-// I dont have any experiance about that<br><br>
+// I dont have any experiance about that<br>
 // But you can find that simillar to the linux 
+
+
+# Feedback 
+your feedback is very important please leave a feedback to <br>
+<p color="red">sayed.khalid.obaide@gmail.com</p>
+
+# contact 
+facebook : Khalid Obaide 
+<br>
+facebook Profile : X
+
