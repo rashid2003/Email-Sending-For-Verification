@@ -48,5 +48,5 @@ what you need to do to let it run:
 
 
 # on Mac 
-// I dont have any experiance about that
+// I dont have any experiance about that<br><br>
 // But you can find that simillar to the linux 
