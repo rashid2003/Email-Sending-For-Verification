@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block title %} Home | PSU {% endblock %}
+{% block body %}
+    <br><br><br>
+    <center>
+        <form action method="post">
+            {% csrf_token %}
+            <input type="name" placeholder="Email ..." name="username" />
+            <br><br>
+            <input type="submit" value="Sign Up" />
+        </form>
+    </center>
+    <br><br><br>
+    <h3>
+        All Accounts :
+    </h3>
+    {% for account in all_accounts %}
+        <a href="{{account.id}}">{{account.username}}</a>
+        <br>
+    {% endfor %}
+<br><br><br>
+    <h3>
+        All Avalible Urls :
+    </h3>
+    1. 127.0.0.1:8000   >>> Index
+    <br>
+    2. 127.0.0.1:8000/admin   >>> Admin  (username = admin,  password = pass1234)
+    <br>
+    3. 127.0.0.1:8000/654   >>> User Information
+    <br>
+    4. 127.0.0.1:8000/lkflsdkjfslfslkf  >>>  User Link for verification
+    <br>
+{% endblock %}
